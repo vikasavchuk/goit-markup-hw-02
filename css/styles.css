@@ -126,7 +126,9 @@ color: #404BBF;
     background: #2E2F42;
 }
 
-.pfooter {
+.p-footer {
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 

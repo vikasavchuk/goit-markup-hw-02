@@ -25,7 +25,7 @@ h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px; 
+    line-height: 1.11; 
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -79,15 +79,9 @@ span {
 
 .section-one {
     background: var(--NAVY-BLUE, #2E2F42);
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
 }
 
 .section-two {
-    width: 1440px;
-    height: 732px;
-    flex-shrink: 0;
     background: var(--CLOUD, #F4F4FD);
 }
 
@@ -95,13 +89,9 @@ span {
 
 footer {
     background: var(--NAVY-BLUE, #2E2F42);
-    width: 1440px;
-    height: 312px;
-    flex-shrink: 0;
 }
 
 .pfooter {
-    width: 264px;
     color: var(--CLOUD, #F4F4FD);
 }
 

@@ -1,15 +1,6 @@
-:root {
-    --bg-color: #fff;
-    --main-dark-color: #2E2F42;
-    --logo-color: #4D5AE5;
-    --team-sec-bg-color: #F4F4FD;
-    --second-dark-color: #434455;
-    --active-color: #404BBF;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--SLATE, #434455);
+    color: #434455;
     background: #FFF;
 }
 
@@ -21,16 +12,16 @@ p,a {
 }
 
 h1 {
-    color: var(--WHITE, #FFF);
+    color: #FFF;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
 }
 
 h2 {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -40,28 +31,33 @@ h2 {
 }
 
 h3 {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px; 
     letter-spacing: 0.4px;
 }
 
-button {
-    color: var(--WHITE, #FFF);
+.service-button {
+    background-color: #4d5ae5;
+    color: #fff;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; 
-    letter-spacing: 0.64px;
-    background: var(--IRIS, #4D5AE5);
     cursor: pointer;
-    background-color: #404BBF
+    font-family:"Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.service-button:hover, 
+.service-button:focus{
+  background-color: #404bbf;
 }
 
 /* header */
 
 .logo {
-    color: var(--IRIS, #4D5AE5);
+    color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -70,31 +66,40 @@ button {
     text-transform: uppercase;
 }
 
-span {
-    color: var(--NAVY-BLUE, #2E2F42);
+.logo-header {
+    color: #2E2F42;
 }
 
-.naps {
-    color: var(--CLOUD, #F4F4FD);
+.logo-footer {
+    color: #F4F4FD;
 }
 
 .nav-link {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     font-weight: 500;
 }
 
 .address-link {
     color: #434455;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* main */
 
 .sectionone {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: #2E2F42;
 }
 
 .sectiontwo {
-    background: var(--CLOUD, #F4F4FD);
+    background: #F4F4FD;
+}
+
+.adress {
+    font-style: normal;
 }
 
 .li {
@@ -103,11 +108,11 @@ span {
 
 /* footer */
 
-footer {
-    background: var(--NAVY-BLUE, #2E2F42);
+.footer {
+    background: #2E2F42;
 }
 
 .pfooter {
-    color: var(--CLOUD, #F4F4FD);
+    color: #F4F4FD;
 }
 

@@ -25,17 +25,17 @@ h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11; 
+    line-height: 1.07 
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 
-h3 {
+.sub {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px; 
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
 .service-button {
@@ -76,7 +76,20 @@ h3 {
 
 .nav-link {
     color: #2E2F42;
+    font-size: 16px;
     font-weight: 500;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+  color: #404BBF;
+  }
+
+.adress {
+    font-style: normal;
 }
 
 .address-link {
@@ -88,6 +101,11 @@ h3 {
     letter-spacing: 0.02em;
 }
 
+.address-link:hover,
+.address-link:focus{
+color: #404BBF;
+}
+
 /* main */
 
 .sectionone {
@@ -96,10 +114,6 @@ h3 {
 
 .sectiontwo {
     background: #F4F4FD;
-}
-
-.adress {
-    font-style: normal;
 }
 
 .li {

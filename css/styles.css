@@ -21,6 +21,7 @@ h1 {
 }
 
 h2 {
+    color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -30,6 +31,7 @@ h2 {
 }
 
 h3 {
+    color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
     line-height: 24px; 
@@ -51,12 +53,17 @@ button {
 /* header */
 
 .logo {
+    color: var(--IRIS, #4D5AE5);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
+}
+
+span {
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .aul {

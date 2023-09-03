@@ -70,18 +70,18 @@ span {
     color: var(--CLOUD, #F4F4FD);
 }
 
-.ul-li-a {
+.ullia {
     color: var(--NAVY-BLUE, #2E2F42);
     font-weight: 500;
 }
 
 /* main */
 
-.section-one {
+.sectionone {
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
-.section-two {
+.sectiontwo {
     background: var(--CLOUD, #F4F4FD);
 }
 

@@ -57,7 +57,7 @@ button {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px; 
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -66,21 +66,25 @@ span {
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.aul {
+.naps {
+    color: var(--CLOUD, #F4F4FD);
+}
+
+.ul-li-a {
     color: var(--NAVY-BLUE, #2E2F42);
     font-weight: 500;
 }
 
 /* main */
 
-.one {
+.section-one {
     background: var(--NAVY-BLUE, #2E2F42);
     width: 1440px;
     height: 600px;
     flex-shrink: 0;
 }
 
-.two {
+.section-two {
     width: 1440px;
     height: 732px;
     flex-shrink: 0;

@@ -1,11 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--SLATE, #434455);
     background: #FFF;
 }
 
 p,a {
-    color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px; 
@@ -94,3 +93,4 @@ footer {
     width: 264px;
     color: var(--CLOUD, #F4F4FD);
 }
+
